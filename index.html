@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mason Proxies</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="logo.png" alt="Mason Proxies Logo" class="logo">
+        <div class="controls">
+            <select id="categorySelect" onchange="updateCount()">
+                <option value="shadow">Shadow Links</option>
+                <option value="velara">Velara Links</option>
+                <option value="doge">Doge Links</option>
+                <option value="froggie">FROGGIE ARCADE</option>
+            </select>
+            <p id="linkCount">Links: 0</p>
+            <button onclick="openLink()">Open Link</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
